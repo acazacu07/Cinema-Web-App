@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cinema>
+  <film genre ="comedy" date="2020-03-03" time="15:00">
+    <title>Little Joe</title>
+    <ticket>
+      <ticket-adult>12</ticket-adult>
+      <ticket-student>12</ticket-student>
+      <ticket-senior>12</ticket-senior>
+    </ticket>
+  </film>

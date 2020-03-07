@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Cinema Web App</title>
+  </head>
+  <body>
+   <header>
+       <h1>East Wall Cinema </h1>
+       <p>A cinema for all taste </p>
+   </header>
+   
+    <!-- navigation links -->
+    <nav class="primary">
+      <a href="./index.html">Home</a>
+      <a href="./index.html">Cinema Listings</a>
+      <a href="./index.html">Contact Us</a>
+    </nav>
+    
+    <main>
+     <section>
+        <h2 class="text-center pt-1 bottom-dotted"> Now showing</h2>  
+       <!-- Films Cards--> 
+        <div class="film-card">
+           <img src="img/index/film1.jpg"  class="img" alt="film1">
+           <h3>Little Joe</h3>
+        </div>
+        
+        <div class="film-card">
+           <img src="img/index/film2.jpg"  class="img" alt="film2">
+           <h3>Parasite</h3>
+        </div>
+        
+        <div class="film-card">
+           <img src="img/index/film1.jpg"  class="img" alt="film3">
+           <h3>The Two Popes</h3>
+        </div>
+        
+        <div class="film-card">
+           <img src="img/index/film1.jpg"  class="img" alt="film4">
+           <h3>Greed</h3>
+        </div>
+      </section>
+    
+    <section id = contact-form>
+      <div class="container">
+      <form action ="https://formspree.io" method="POST">
+      
+        <label> To see the times please enter a film name and press search: 
+        <br>  <input type= "text" name ="times" placeholder="Times.." class ="times"/>
+        </label><br>
+        <input type="submit" value="Search" class= "submit"><br>
+
+        <label>To see the dates available please enter a film name and press search:
+        <br><input type= "text" name ="dates" placeholder="Dates.." class ="dates"/>
+        </label>
+
+        <div class="status"></div>
+
+         <input type="submit" value="Search" class= "submit">
+
+      </form>
+     </div>
+    </section>
+    </main>
+    <footer>
+         <nav>
+             <p>Anca Cazacu | Web Application Development </p>
+         </nav> 
+    </footer>
+    
+    <script src = "https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"> </script>
+    <script src= "app.js"></script>  
+    
+  </body>
+</html>
