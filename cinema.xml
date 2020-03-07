@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <cinema>
-  <film genre ="comedy" "title">
+  <film genre ="comedy" "title"= "Bat Girl">
     <date>"2020-03-03"</date>
     <time>"15:00"</time>
     <ticket>
