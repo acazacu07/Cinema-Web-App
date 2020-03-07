@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <cinema>
   <film genre ="comedy" title= "Bat Girl">
-    <date>2020-03-03</date>
     <time>15:00</time>
+    <date>2020-03-03</date>
+    <ticket>
+      <ticket-adult>15</ticket-adult>
+      <ticket-student>8</ticket-student>
+      <ticket-senior>6</ticket-senior>
+    </ticket>
+  </film>
+  
+  
+  <film genre ="action" title= "Wonder Woman">
+    <time>17:00</time>
+    <date>2020-03-09</date>
+    <ticket>
+      <ticket-adult>15</ticket-adult>
+      <ticket-student>8</ticket-student>
+      <ticket-senior>6</ticket-senior>
+    </ticket>
+  </film>
+  
+  <film genre ="drama" title= "Captain Marvel">
+    <time>19:00</time>
+    <date>2020-03-12</date>
+    <ticket>
+      <ticket-adult>15</ticket-adult>
+      <ticket-student>8</ticket-student>
+      <ticket-senior>6</ticket-senior>
+    </ticket>
+  </film>
+  
+  
+    <film genre ="action" title= "Black Widow">
+    <time>22:00</time>
+    <date>2020-03- 11</date>
     <ticket>
       <ticket-adult>12</ticket-adult>
       <ticket-student>12</ticket-student>
       <ticket-senior>12</ticket-senior>
     </ticket>
   </film>
+  
+</cinema>
+ 
