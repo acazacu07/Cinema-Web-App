@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ticket>
+
+<ticket-adult>15</ticket-adult>
+
+<ticket-student>8</ticket-student>
+
+<ticket-senior>6</ticket-senior>
+
+</ticket>
