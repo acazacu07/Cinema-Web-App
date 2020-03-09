@@ -64,6 +64,7 @@ footer {
 
 /* films box style */
 .film-card{
+    position: relative;
     display: inline-block;
     width: 20%;
     background-color: #F1EFEF;
@@ -74,27 +75,38 @@ footer {
     text-align: center;
 }
 
-    .bottom-dotted{
+.film-card img { 
+    width: auto; 
+}
+
+
+.bottom-dotted{
         border-bottom: 5px dotted #230D0C;
         width: 80%;
         margin: auto;
         padding-bottom: 20px;
     }
 
+.time { color: #000000;
+font-size: 15px;
+padding: 12px;
+width: 70%;
+display: inline-block;
+}
+
 /* Style inputs with type="text", select elements and textareas */
-input[type=text],textarea {
+input[type=text],select {
   width: 20%; /* Full width */
-  padding: 12px; /* Some padding */
+  padding: 12px 20px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 2px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
+.input {
   background-color: #000000;
   color: white;
   padding: 12px 20px;
@@ -104,10 +116,7 @@ input[type=submit] {
   font-size:1.2rem;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color:  #B44040;
-}
+
 
 /* Add a background color and some padding around the form */
 .container {
@@ -117,3 +126,57 @@ input[type=submit]:hover {
   text-align: center;
   font-size:1.2rem; 
 }
+
+.contact-form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-box {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-box label {
+  color: #000000;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-box input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-box input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.submit {
+  cursor: pointer;
+  background-color: #000000;
+  border: 2px solid #B44040;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+

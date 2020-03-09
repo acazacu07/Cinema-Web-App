@@ -36,9 +36,9 @@
     <time>22:00</time>
     <date>2020-03- 11</date>
     <ticket>
-      <ticket-adult>12</ticket-adult>
-      <ticket-student>12</ticket-student>
-      <ticket-senior>12</ticket-senior>
+      <ticket-adult>15</ticket-adult>
+      <ticket-student>8</ticket-student>
+      <ticket-senior>6</ticket-senior>
     </ticket>
   </film>
   
